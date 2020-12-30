@@ -23,8 +23,7 @@ nav{
 }
 
 .icone{
-    padding-top: 10%;
-    
+    padding-top: 10%;  
 }
 
 .width25{
@@ -52,8 +51,7 @@ ul a span{
 }
 
 .marginleft20{
-    margin-left: 20%;
-    margin-right: 0;
+    margin: 0px 0px 0px 195px;
 }
 
 .logo-about{
@@ -99,7 +97,6 @@ ul a span{
     font-size: 20px;
     outline: none;
     line-height: 29px;
-
 }
 
 .paddingbottom35{
@@ -116,14 +113,13 @@ ul a span{
 
 .ftsize{
     font-size: 55px;
-
 }
 
 .ftsize30{
     font-size: 30px;
     line-height: 33px;
 }
-}
+
 .margright{
     margin-right: 50%;
     right:0
@@ -132,7 +128,6 @@ ul a span{
 span{
     font-size: 12px;
     line-height: 20px;
-
 }
 
 .flex a{
@@ -140,4 +135,43 @@ span{
     color: #ffffff;
     /* display: block; */
     padding: 10px 15px;
+}
+
+.imge{
+    width: 300px;
+}
+
+.btn{
+    background: #393a3b;
+    color: #ffffff;
+    padding: 15px 50px;
+    font-size: 20px;
+    outline: none;
+    line-height: 29px;
+}
+
+.font{
+    color: #393a3b;
+    font-size: 55px;
+    line-height: 61px;
+    margin-left: 50%;
+}
+
+.titre1{
+    color: #393a3b;
+    font-size: 45px;
+    line-height: 50px;
+    text-align: center;
+}
+
+.info1{
+    color: #393a3b;
+    font-size: 18px;
+    line-height: 26px;
+    text-align: center;
+}
+
+.paddingt{
+    margin-top: 50px;
+    margin-left: 400px;
 }
