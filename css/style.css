@@ -1,9 +1,16 @@
+body{
+    font-family: 'Ubuntu', sans-serif;
+}
 nav{
     background-color: black;
+    position: relative;
 }
 
 .flex-end{
     justify-content: space-between;
+}
+.left0{
+    left: 0;
 }
 .banière{
     background-image: url("../img/banner-home.png");
@@ -44,6 +51,93 @@ ul a span{
     margin-left: 10%;
 }
 
+.marginleft20{
+    margin-left: 20%;
+    margin-right: 0;
+}
+
 .logo-about{
     width: 300px;
+}
+
+.carte{
+    width: 20%;
+    height: 530px;
+    display: grid;
+    justify-items: center;
+}
+
+.color30363b{
+    background-color: #30363b;
+}
+
+.flexbasis{
+    flex-basis: 100%;
+}
+
+.white{
+    color: #ffffff;
+}
+.info{
+    color: #ffffff;
+    font-size: 18px;
+    text-align: center;
+}
+
+.titre{
+    color: #ffffff;
+    font-size: 45px;
+}
+
+.space-around{
+    justify-content: space-around;
+}
+
+.btn1{
+    background: #ffffff;
+    padding: 15px 50px;
+    font-size: 20px;
+    outline: none;
+    line-height: 29px;
+
+}
+
+.paddingbottom35{
+    padding-bottom: 35px;
+}
+
+.padtop25{
+    padding-top: 25px;
+}
+
+.fontsize{
+    font-size: 35px;
+}
+
+.ftsize{
+    font-size: 55px;
+
+}
+
+.ftsize30{
+    font-size: 30px;
+    line-height: 33px;
+}
+}
+.margright{
+    margin-right: 50%;
+    right:0
+}
+
+span{
+    font-size: 12px;
+    line-height: 20px;
+
+}
+
+.flex a{
+    text-decoration: none;
+    color: #ffffff;
+    /* display: block; */
+    padding: 10px 15px;
 }
